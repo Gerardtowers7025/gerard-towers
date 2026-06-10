@@ -44,7 +44,7 @@ export default function ContactPage() {
     <main className="bg-white">
 <section className="relative h-125 overflow-hidden">
   <Image
-    src="/hero/back.jpg"
+    src="/hero/back.webp"
     alt="Contact Gerard Towers"
     fill
     priority

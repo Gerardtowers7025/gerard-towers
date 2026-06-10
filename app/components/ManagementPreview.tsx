@@ -5,7 +5,7 @@ export default function ManagementPreview() {
     <section className="relative overflow-hidden py-20">
       <div className="absolute inset-0">
         <img
-          src="/images/amenities/back.jpg"
+          src="/images/amenities/back.webp"
           alt="Gerard Towers Management"
           className="h-full w-full object-cover"
         />

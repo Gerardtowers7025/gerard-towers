@@ -4,11 +4,11 @@ import { useState } from "react";
 import Image from "next/image";
 
 const neighborhoodImages = [
-  { title: "Austin Street", image: "/neighborhood/austin street.webp" },
+  { title: "Austin Street", image: "/neighborhood/Austin Street.webp" },
   { title: "Citi Field", image: "/neighborhood/citi field.jpeg" },
   {
     title: "Flushing Meadows Corona Park",
-    image: "/neighborhood/flushing meadows corona park.jpg",
+    image: "/neighborhood/Flushing Meadows Corona Park.jpg",
   },
   {
     title: "Forest Hills Gardens",
@@ -111,7 +111,7 @@ export default function NeighborhoodPage() {
     <main className="bg-white">
       <section className="relative h-125 overflow-hidden">
         <Image
-          src="/hero/foresthillsgarden.jpg"
+          src="/hero/foresthillsgarden.webp"
           alt="Forest Hills Neighborhood"
           fill
           priority

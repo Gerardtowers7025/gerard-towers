@@ -109,7 +109,7 @@ const amenities = [
     details:
       "The building includes private garage parking for residents, subject to availability.",
     images: [
-      "/amenities/garage/1.webp",
+      "/amenities/garage/1.jpg",
       "/amenities/garage/2.webp",
       "/amenities/garage/3.webp",
       "/amenities/garage/4.webp",
