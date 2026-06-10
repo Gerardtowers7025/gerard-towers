@@ -65,10 +65,10 @@ const amenities = [
     description:
       "Bike storage available for residents who need a convenient place to keep bicycles.",
     images: [
-      "/amenities/bike/1.jpg",
-      "/amenities/bike/2.jpg",
-      "/amenities/bike/3.jpg",
-      "/amenities/bike/4.jpg",
+      "/amenities/bike/1.webp",
+      "/amenities/bike/2.webp",
+      "/amenities/bike/3.webp",
+      "/amenities/bike/4.webp",
     ],
   },
   {

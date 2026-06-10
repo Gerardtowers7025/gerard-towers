@@ -94,14 +94,14 @@ const amenities = [
   },
   {
     title: "Bike Room",
-    cover: "/amenities/bike/1.jpg",
+    cover: "/amenities/bike/1.webp",
     short: "Secure bike storage available in the building.",
     details: "The bike room gives residents a designated space for bicycle storage.",
     images: [
-      "/amenities/bike/1.jpg",
-      "/amenities/bike/2.jpg",
-      "/amenities/bike/3.jpg",
-      "/amenities/bike/4.jpg",
+      "/amenities/bike/1.webp",
+      "/amenities/bike/2.webp",
+      "/amenities/bike/3.webp",
+      "/amenities/bike/4.webp",
     ],
   },
   {
