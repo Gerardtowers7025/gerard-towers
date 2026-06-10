@@ -12,8 +12,8 @@ const amenities = [
       "/amenities/pool/1.jpg",
       "/amenities/pool/2.jpg",
       "/amenities/pool/3.jpg",
-      "/amenities/pool/4.jpg",
-      "/amenities/pool/5.jpg",
+      "/amenities/pool/4.webp",
+      "/amenities/pool/5.webp",
     ],
   },
   {
@@ -33,7 +33,7 @@ const amenities = [
       "A resident laundry room located within the building for everyday convenience.",
     images: [
       "/amenities/laundry/1.jpg",
-      "/amenities/laundry/2-1.jpg",
+      "/amenities/laundry/2-1.webp",
       "/amenities/laundry/3.jpg",
       "/amenities/laundry/4.jpg",
       "/amenities/laundry/5.jpg",
@@ -44,12 +44,11 @@ const amenities = [
     description:
       "Outdoor shared space for residents to enjoy fresh air, quiet moments, and community space. A garden area for planting is also available.",
     images: [
-      "/amenities/courtyard/7.jpg",
-      "/amenities/courtyard/2.jpg",
-      "/amenities/courtyard/3.jpg",
-      "/amenities/courtyard/4.jpg",
-      "/amenities/courtyard/5.jpg",
-      "/amenities/courtyard/6.jpg",
+      "/amenities/courtyard/1.webp",
+      "/amenities/courtyard/2.webp",
+      "/amenities/courtyard/3.webp",
+      "/amenities/courtyard/4.webp",
+      "/amenities/courtyard/5.webp",
     ],
   },
   {
@@ -76,10 +75,10 @@ const amenities = [
     description:
       "Private garage parking available separately for residents, subject to availability.",
     images: [
-      "/amenities/garage/1.jpg",
-      "/amenities/garage/2.jpg",
-      "/amenities/garage/3.jpg",
-      "/amenities/garage/4.jpg",
+      "/amenities/garage/1.webp",
+      "/amenities/garage/2.webp",
+      "/amenities/garage/3.webp",
+      "/amenities/garage/4.webp",
     ],
   },
   {
@@ -99,8 +98,8 @@ const amenities = [
       "/amenities/lobby/10.jpg",
       "/amenities/lobby/12.jpg",
       "/amenities/lobby/13.jpg",
-      "/amenities/lobby/14.jpg",
-      "/amenities/lobby/15.jpg",
+      "/amenities/lobby/14.webp",
+      "/amenities/lobby/15.webp",
     ],
   },
   {
@@ -108,10 +107,10 @@ const amenities = [
     description:
       "A dedicated space for reading, socializing, and hosting events. Vending and Coffee Area available.",
     images: [
-      "/amenities/party/1.jpg",
-      "/amenities/party/2.jpg",
-      "/amenities/party/3.jpg",
-      "/amenities/party/4.jpg",
+      "/amenities/party/1.webp",
+      "/amenities/party/2.webp",
+      "/amenities/party/3.webp",
+      "/amenities/party/4.webp",
     ],
   },
 ];

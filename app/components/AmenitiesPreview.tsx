@@ -27,8 +27,8 @@ const amenities = [
       "/amenities/pool/1.jpg",
       "/amenities/pool/2.jpg",
       "/amenities/pool/3.jpg",
-      "/amenities/pool/4.jpg",
-      "/amenities/pool/5.jpg",
+      "/amenities/pool/4.webp",
+      "/amenities/pool/5.webp",
     ],
   },
   {
@@ -49,7 +49,7 @@ const amenities = [
       "Residents have access to laundry facilities within the building for everyday use.",
     images: [
       "/amenities/laundry/1.jpg",
-      "/amenities/laundry/2-1.jpg",
+      "/amenities/laundry/2-1.webp",
       "/amenities/laundry/3.jpg",
       "/amenities/laundry/4.jpg",
       "/amenities/laundry/5.jpg",
@@ -57,16 +57,14 @@ const amenities = [
   },
   {
     title: "Courtyard",
-    cover: "/amenities/courtyard/7.jpg",
+    cover: "/amenities/courtyard/3.webp",
     short: "Outdoor space and garden for residents to enjoy.",
     details: "The courtyard offers a quiet outdoor area within the property. Also includes a garden for residents to grow plants and vegetables.",
     images: [
-      "/amenities/courtyard/7.jpg",
-      "/amenities/courtyard/2.jpg",
-      "/amenities/courtyard/3.jpg",
-      "/amenities/courtyard/4.jpg",
-      "/amenities/courtyard/5.jpg",
-      "/amenities/courtyard/6.jpg",
+      "/amenities/courtyard/1.webp",
+      "/amenities/courtyard/2.webp",
+      "/amenities/courtyard/3.webp",
+      "/amenities/courtyard/4.webp",
     ],
   },
   {
@@ -88,8 +86,8 @@ const amenities = [
       "/amenities/lobby/10.jpg",
       "/amenities/lobby/12.jpg",
       "/amenities/lobby/13.jpg",
-      "/amenities/lobby/14.jpg",
-      "/amenities/lobby/15.jpg",
+      "/amenities/lobby/14.webp",
+      "/amenities/lobby/15.webp",
     ],
   },
   {
@@ -106,28 +104,28 @@ const amenities = [
   },
   {
     title: "Private Garage",
-    cover: "/amenities/garage/3.jpg",
+    cover: "/amenities/garage/3.webp",
     short: "Private garage parking available on-site.",
     details:
       "The building includes private garage parking for residents, subject to availability.",
     images: [
-      "/amenities/garage/1.jpg",
-      "/amenities/garage/2.jpg",
-      "/amenities/garage/3.jpg",
-      "/amenities/garage/4.jpg",
+      "/amenities/garage/1.webp",
+      "/amenities/garage/2.webp",
+      "/amenities/garage/3.webp",
+      "/amenities/garage/4.webp",
     ],
   },
   {
     title: "Library/Party Room",
-    cover: "/amenities/party/1.jpg",
+    cover: "/amenities/party/1.webp",
     short: "A dedicated space for reading, socializing, and hosting events. Vending and Coffee Area available.",
     details:
       "The library/party room provides a versatile area for residents to enjoy reading, socializing, or hosting events. Outside the room there's a Vending and Coffee Area as well.",
     images: [
-      "/amenities/party/1.jpg",
-      "/amenities/party/2.jpg",
-      "/amenities/party/3.jpg",
-      "/amenities/party/4.jpg",
+      "/amenities/party/1.webp",
+      "/amenities/party/2.webp",
+      "/amenities/party/3.webp",
+      "/amenities/party/4.webp",
     ],
   },
 ];
