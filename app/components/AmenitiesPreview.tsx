@@ -231,7 +231,6 @@ export default function AmenitiesPreview() {
                 src={activeImage}
                 alt={selectedAmenity.title}
                 fill
-                unoptimized
                 className="object-contain"
               />
 
@@ -284,7 +283,6 @@ export default function AmenitiesPreview() {
                       src={image}
                       alt={`${selectedAmenity.title} ${index + 1}`}
                       fill
-                      unoptimized
                       className="object-cover"
                     />
                   </button>
