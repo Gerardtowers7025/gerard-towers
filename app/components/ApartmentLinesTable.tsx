@@ -6,7 +6,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "617",
-    downloads: [{ label: "Download", file: "/floorplans/images/A.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/A.pdf" }],
   },
   {
     line: "B",
@@ -15,7 +15,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "613",
-    downloads: [{ label: "Download", file: "/floorplans/images/B.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/B.png" }],
   },
   {
     line: "C",
@@ -24,7 +24,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "Yes",
     sqft: "1,570",
-    downloads: [{ label: "Download", file: "/floorplans/images/C.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/C.png" }],
   },
   {
     line: "D",
@@ -33,7 +33,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "Yes",
     sqft: "950",
-    downloads: [{ label: "Download", file: "/floorplans/images/D.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/D.png" }],
   },
   {
     line: "E",
@@ -42,7 +42,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "Yes",
     sqft: "738",
-    downloads: [{ label: "Download", file: "/floorplans/images/E.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/E.png" }],
   },
   {
     line: "F",
@@ -51,7 +51,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "Yes",
     sqft: "642",
-    downloads: [{ label: "Download", file: "/floorplans/images/F.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/F.png" }],
   },
   {
     line: "G",
@@ -60,7 +60,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "Yes",
     sqft: "738",
-    downloads: [{ label: "Download", file: "/floorplans/images/G.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/G.png" }],
   },
   {
     line: "H",
@@ -69,7 +69,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "Yes",
     sqft: "950",
-    downloads: [{ label: "Download", file: "/floorplans/images/H.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/H.png" }],
   },
   {
     line: "J",
@@ -78,7 +78,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "Yes",
     sqft: "1,570",
-    downloads: [{ label: "Download", file: "/floorplans/images/J.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/J.png" }],
   },
   {
     line: "K",
@@ -87,7 +87,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "613",
-    downloads: [{ label: "Download", file: "/floorplans/images/K.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/K.png" }],
   },
   {
     line: "L",
@@ -96,7 +96,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "617",
-    downloads: [{ label: "Download", file: "/floorplans/images/L.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/L.png" }],
   },
   {
     line: "M",
@@ -105,7 +105,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "1,203",
-    downloads: [{ label: "Download", file: "/floorplans/images/M.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/M.png" }],
   },
   {
     line: "N",
@@ -114,7 +114,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "1,240",
-    downloads: [{ label: "Download", file: "/floorplans/images/N.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/N.png" }],
   },
   {
     line: "O",
@@ -123,7 +123,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "752",
-    downloads: [{ label: "Download", file: "/floorplans/images/O.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/O.png" }],
   },
   {
     line: "P",
@@ -132,7 +132,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "626",
-    downloads: [{ label: "Download", file: "/floorplans/images/P.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/P.png" }],
   },
   {
     line: "Q",
@@ -141,7 +141,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "587",
-    downloads: [{ label: "Download", file: "/floorplans/images/Q.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/Q.png" }],
   },
   {
     line: "R",
@@ -151,8 +151,8 @@ const apartmentLines = [
     terrace: "No",
     sqft: "642–909",
     downloads: [
-      { label: "Lobby–18", file: "/floorplans/images/R.png" },
-      { label: "19–25", file: "/floorplans/images/R2.png" },
+      { label: "Lobby–18", file: "/floorplans/floorplans/R.png" },
+      { label: "19–25", file: "/floorplans/floorplans/R2.png" },
     ],
   },
   {
@@ -162,7 +162,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "653",
-    downloads: [{ label: "Download", file: "/floorplans/images/S.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/S.png" }],
   },
   {
     line: "T",
@@ -171,7 +171,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "Yes",
     sqft: "998",
-    downloads: [{ label: "Download", file: "/floorplans/images/T.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/T.png" }],
   },
   {
     line: "U",
@@ -180,7 +180,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "Yes",
     sqft: "830",
-    downloads: [{ label: "Download", file: "/floorplans/images/U.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/U.png" }],
   },
   {
     line: "V",
@@ -189,7 +189,7 @@ const apartmentLines = [
     baths: 2,
     terrace: "Yes",
     sqft: "1,857",
-    downloads: [{ label: "Download", file: "/floorplans/images/V.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/V.png" }],
   },
   {
     line: "W",
@@ -198,7 +198,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "814",
-    downloads: [{ label: "Download", file: "/floorplans/images/W.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/W.png" }],
   },
   {
     line: "X",
@@ -208,8 +208,8 @@ const apartmentLines = [
     terrace: "Yes",
     sqft: "907–1,174",
     downloads: [
-      { label: "Lobby–18", file: "/floorplans/images/X.png" },
-      { label: "19–25", file: "/floorplans/images/X2.png" },
+      { label: "Lobby–18", file: "/floorplans/floorplans/X.png" },
+      { label: "19–25", file: "/floorplans/floorplans/X2.png" },
     ],
   },
   {
@@ -219,7 +219,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "907",
-    downloads: [{ label: "Download", file: "/floorplans/images/Y.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/Y.png" }],
   },
   {
     line: "Z",
@@ -228,7 +228,7 @@ const apartmentLines = [
     baths: 1,
     terrace: "No",
     sqft: "745",
-    downloads: [{ label: "Download", file: "/floorplans/images/Z.png" }],
+    downloads: [{ label: "Download", file: "/floorplans/floorplans/Z.png" }],
   },
 ];
 
