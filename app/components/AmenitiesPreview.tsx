@@ -172,7 +172,7 @@ export default function AmenitiesPreview() {
           <p className="text-lg leading-8 text-gray-600">
             Explore the spaces and services available throughout Gerard Towers,
             including recreation, convenience, storage, parking, and resident
-            support.
+            support. Amenities like pool, garage, fitness center, bike room and private use of party room are fee-based.
           </p>
         </div>
 
@@ -249,7 +249,7 @@ export default function AmenitiesPreview() {
             <div className="p-6">
               <div className="mb-5 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
                 <div>
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="mb-3 text-2xl font-bold text-black">
                     {selectedAmenity.title}
                   </h3>
                   <p className="mt-2 leading-7 text-gray-600">

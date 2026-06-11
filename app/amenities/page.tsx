@@ -167,7 +167,7 @@ export default function AmenitiesPage() {
 
       <p className="mx-auto max-w-3xl text-lg leading-8 text-gray-100">
         Gerard Towers offers resident amenities designed for convenience,
-        recreation, comfort, and everyday living.
+        recreation, comfort, and everyday living. Amenities like pool, garage, fitness center, bike room and private use of party room are fee-based.
       </p>
     </div>
   </div>

@@ -116,7 +116,7 @@ export default function ManagementPage() {
             <ul className="space-y-3 text-gray-600">
               <li>• 24/7 doorman coverage</li>
               <li>• Resident Manager/Superintendent on premises</li>
-              <li>• Management Office on premises (Mon–Fri, 9 AM–5 PM)</li>
+              <li>• Management Office on premises</li>
               <li>• 9 porters supporting building upkeep</li>
               <li>• 3 handymen supporting maintenance and repairs</li>
               <li>• Resident communication through BuildingLink</li>
