@@ -67,7 +67,7 @@ export default function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="transition hover:text-gray-600"
+              className="font-semibold text-black transition hover:text-gray-700"
             >
               {link.label}
             </Link>

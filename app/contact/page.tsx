@@ -108,7 +108,7 @@ export default function ContactPage() {
             <h2 className="mb-6 text-2xl font-semibold text-gray-900">
               Send a Message
             </h2>
-            <p className="text-sm leading-6">
+            <p className="mb-5 text-sm leading-6 text-black">
                 Please do not submit sensitive personal, financial, or emergency
                 information through this form. For urgent matters, contact the
                 building office directly.

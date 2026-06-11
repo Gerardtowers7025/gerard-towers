@@ -231,8 +231,14 @@ export default function ApartmentPlan() {
         setHovered(null);
         el.setAttribute("opacity", "0");
       };
-
-      el.onclick = () => {
+el.onpointerdown = (event) => {
+  event.preventDefault();
+  event.stopPropagation();
+  setSelected(line);
+};
+      el.onclick = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
         setSelected(line);
       };
     });
@@ -271,7 +277,7 @@ export default function ApartmentPlan() {
               ×
             </button>
 
-            <h3 className="mb-4 pr-10 text-2xl font-bold">
+            <h3 className="mb-4 pr-10 text-2xl font-bold text-black">
               {selectedInfo.title}
             </h3>
 
