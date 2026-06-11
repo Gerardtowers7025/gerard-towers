@@ -21,7 +21,7 @@ export default function NeighborhoodPreview() {
 <div className="mb-12 overflow-hidden rounded-3xl shadow-lg">
   <div className="relative h-87.5 md:h-125">
     <Image
-      src="/images/neighborhood.jpg"
+      src="/images/neighborhood.webp"
       alt="Forest Hills Neighborhood"
       fill
       className="object-cover object-top"
@@ -66,7 +66,7 @@ export default function NeighborhoodPreview() {
 
   <div className="relative mb-4 h-20 overflow-hidden rounded-xl bg-white">
     <Image
-      src="/neighborhood/EFMR.jpg"
+      src="/neighborhood/EFMR.webp"
       alt="E F M R Subway Lines"
       fill
       className="object-contain"

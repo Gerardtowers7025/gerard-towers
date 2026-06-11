@@ -5,30 +5,30 @@ import Image from "next/image";
 
 const neighborhoodImages = [
   { title: "Austin Street", image: "/neighborhood/Austin Street.webp" },
-  { title: "Citi Field", image: "/neighborhood/citi field.jpeg" },
+  { title: "Citi Field", image: "/neighborhood/Citi Field.webp" },
   {
     title: "Flushing Meadows Corona Park",
-    image: "/neighborhood/Flushing Meadows Corona Park.jpg",
+    image: "/neighborhood/Flushing Meadows Corona Park.webp",
   },
   {
     title: "Forest Hills Gardens",
-    image: "/neighborhood/forest hills gardens.jpg",
+    image: "/neighborhood/Forest Hills Gardens.webp",
   },
   {
     title: "Forest Hills Stadium",
-    image: "/neighborhood/forest hills stadium.jpg",
+    image: "/neighborhood/Forest Hills Stadium.webp",
   },
-  { title: "Forest Park", image: "/neighborhood/forest park.jpg" },
+  { title: "Forest Park", image: "/neighborhood/Forest Park.webp" },
   {
     title: "New York Hall of Science",
-    image: "/neighborhood/new york hall of science.jpg",
+    image: "/neighborhood/New York Hall of Science.webp",
   },
-  { title: "Queens Museum", image: "/neighborhood/queens museum.jpeg" },
-  { title: "Queens Zoo", image: "/neighborhood/queens zoo.jpg" },
-  { title: "US Open Tennis", image: "/neighborhood/us open tennis.jpg" },
+  { title: "Queens Museum", image: "/neighborhood/Queens Museum.webp" },
+  { title: "Queens Zoo", image: "/neighborhood/Queens Zoo.webp" },
+  { title: "US Open Tennis", image: "/neighborhood/US Open Tennis.webp" },
   {
     title: "West Side Tennis Club",
-    image: "/neighborhood/westside tennis club.jpeg",
+    image: "/neighborhood/West Side Tennis Club.webp",
   },
 ];
 
@@ -65,7 +65,7 @@ const highlights = [
   },
   {
     title: "Transportation Access",
-    image: "/neighborhood/EFMR.jpg",
+    image: "/neighborhood/EFMR.webp",
     description:
       "Walking distance to the E, F, M, and R subway lines, Forest Hills–71st Avenue station, Long Island Rail Road service, and express bus routes connecting residents to Manhattan, Brooklyn, Long Island, and destinations throughout Queens.",
   },

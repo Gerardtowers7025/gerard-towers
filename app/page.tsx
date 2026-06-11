@@ -7,7 +7,7 @@ import ContactPreview from "./components/ContactPreview";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gerard Towers | Home",
+  title: "Gerard Towers - Home",
 };
 
 export default function Home() {

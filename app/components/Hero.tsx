@@ -10,14 +10,14 @@ const slides = [
     title: "Gerard Towers",
     description:
       "A full-service cooperative residence located at 70-25 Yellowstone Boulevard in the heart of Forest Hills.",
-    image: "/hero/gerard-towers.jpg",
+    image: "/hero/gerard-towers.webp",
   },
   {
     eyebrow: "Apartment Lines",
     title: "Explore Our Residences",
     description:
       "View apartment lines, layout details, approximate square footage, and downloadable floor plans.",
-    image: "/hero/apartments.jpg",
+    image: "/hero/apartments.webp",
     buttonText: "View Apartments",
     href: "/apartments",
   },
@@ -26,7 +26,7 @@ const slides = [
     title: "Comfort & Convenience",
     description:
       "Discover resident amenities including the pool, fitness center, laundry room, courtyard, garage, and lobby services.",
-    image: "/hero/1.jpg",
+    image: "/hero/1.webp",
     buttonText: "View Amenities",
     href: "/amenities",
   },
@@ -35,7 +35,7 @@ const slides = [
     title: "Life in Forest Hills",
     description:
       "Close to Austin Street, shopping, dining, parks, and everyday neighborhood conveniences.",
-    image: "/hero/neighborhood2.jpg",
+    image: "/hero/neighborhood2.webp",
     buttonText: "Explore Neighborhood",
     href: "/neighborhood",
   },

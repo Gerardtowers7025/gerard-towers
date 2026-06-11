@@ -5,7 +5,7 @@ export default function ManagementPage() {
     <main className="bg-white">
       <section className="relative h-125 overflow-hidden">
         <Image
-          src="/hero/management.jpg"
+          src="/hero/management.webp"
           alt="Gerard Towers Management"
           fill
           priority

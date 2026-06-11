@@ -9,9 +9,9 @@ const amenities = [
     description:
       "A seasonal outdoor pool area available for residents to enjoy during the warmer months.",
     images: [
-      "/amenities/pool/1.jpg",
-      "/amenities/pool/2.jpg",
-      "/amenities/pool/3.jpg",
+      "/amenities/pool/1.webp",
+      "/amenities/pool/2.webp",
+      "/amenities/pool/3.webp",
       "/amenities/pool/4.webp",
       "/amenities/pool/5.webp",
     ],
@@ -21,10 +21,10 @@ const amenities = [
     description:
       "An on-site fitness room with equipment for convenient everyday workouts.",
     images: [
-      "/amenities/gym/1.jpg",
-      "/amenities/gym/2.jpg",
-      "/amenities/gym/3.jpg",
-      "/amenities/gym/4.jpg",
+      "/amenities/gym/1.webp",
+      "/amenities/gym/2.webp",
+      "/amenities/gym/3.webp",
+      "/amenities/gym/4.webp",
     ],
   },
   {
@@ -32,11 +32,10 @@ const amenities = [
     description:
       "A resident laundry room located within the building for everyday convenience.",
     images: [
-      "/amenities/laundry/1.jpg",
+      "/amenities/laundry/1.webp",
       "/amenities/laundry/2-1.webp",
-      "/amenities/laundry/3.jpg",
-      "/amenities/laundry/4.jpg",
-      "/amenities/laundry/5.jpg",
+      "/amenities/laundry/3.webp",
+      "/amenities/laundry/4.webp",
     ],
   },
   {
@@ -55,8 +54,8 @@ const amenities = [
     title: "Playroom",
     description: "A dedicated indoor play area for families and children.",
     images: [
-      "/amenities/playroom/1.jpg",
-      "/amenities/playroom/2.jpg",
+      "/amenities/playroom/1.webp",
+      "/amenities/playroom/2.webp",
     ],
   },
   {
@@ -75,7 +74,7 @@ const amenities = [
     description:
       "Private garage parking available separately for residents, subject to availability.",
     images: [
-      "/amenities/garage/1.jpg",
+      "/amenities/garage/1.webp",
       "/amenities/garage/2.webp",
       "/amenities/garage/3.webp",
       "/amenities/garage/4.webp",
@@ -86,20 +85,17 @@ const amenities = [
     description:
       "A staffed lobby providing daily support, package assistance, and building access oversight.",
     images: [
-      "/amenities/lobby/1.jpg",
-      "/amenities/lobby/2.jpg",
-      "/amenities/lobby/3.jpg",
-      "/amenities/lobby/4.jpg",
-      "/amenities/lobby/5.jpg",
-      "/amenities/lobby/6.jpg",
-      "/amenities/lobby/7.jpg",
-      "/amenities/lobby/8.jpg",
-      "/amenities/lobby/9.jpg",
-      "/amenities/lobby/10.jpg",
-      "/amenities/lobby/12.jpg",
-      "/amenities/lobby/13.jpg",
-      "/amenities/lobby/14.webp",
-      "/amenities/lobby/15.webp",
+      "/amenities/lobby/1.webp",
+      "/amenities/lobby/2.webp",
+      "/amenities/lobby/3.webp",
+      "/amenities/lobby/4.webp",
+      "/amenities/lobby/5.webp",
+      "/amenities/lobby/6.webp",
+      "/amenities/lobby/7.webp",
+      "/amenities/lobby/8.webp",
+      "/amenities/lobby/9.webp",
+      "/amenities/lobby/10.webp",
+      "/amenities/lobby/11.webp",
     ],
   },
   {
@@ -150,7 +146,7 @@ export default function AmenitiesPage() {
     <main className="bg-white">
 <section className="relative h-125 overflow-hidden">
   <Image
-    src="/hero/1.jpg"
+    src="/hero/1.webp"
     alt="Amenities at Gerard Towers"
     fill
     priority

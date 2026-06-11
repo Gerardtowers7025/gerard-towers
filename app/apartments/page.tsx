@@ -7,7 +7,7 @@ export default function ApartmentsPage() {
     <main className="bg-white">
       <section className="relative h-125 overflow-hidden">
         <Image
-          src="/hero/apartments.jpg"
+          src="/hero/apartments.webp"
           alt="Gerard Towers Apartments"
           fill
           priority
