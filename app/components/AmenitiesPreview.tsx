@@ -181,19 +181,19 @@ export default function AmenitiesPreview() {
             <button
               key={amenity.title}
               onClick={() => openAmenity(amenity)}
-              className="group overflow-hidden rounded-2xl border border-gray-200 bg-white text-left shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+              className="group overflow-hidden rounded-2xl border border-gray-200 bg-white text-left shadow-sm transition-transform duration-200 hover:-translate-y-1"
             >
               <div className="relative h-44 bg-gray-200">
                 <Image
                   src={amenity.cover}
                   alt={amenity.title}
                   fill
-                  className="object-cover transition duration-300 group-hover:scale-105"
+                  className="object-cover"
                 />
               </div>
 
               <div className="p-5">
-                <h3 className="mb-2 text-lg font-semibold">
+                <h3 className="mb-2 text-lg font-semibold text-black">
                   {amenity.title}
                 </h3>
                 <p className="text-sm leading-6 text-gray-600">

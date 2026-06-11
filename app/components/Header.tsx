@@ -48,7 +48,7 @@ export default function Header() {
 
         {/* Hamburger */}
         <button
-          className="text-2xl md:hidden"
+          className="text-3xl font-bold text-black md:hidden"
           onClick={() => setOpen(!open)}
         >
           {open ? "✕" : "☰"}

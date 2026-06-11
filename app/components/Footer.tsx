@@ -17,13 +17,13 @@ export default function Footer() {
         <div className="grid gap-10 text-center md:grid-cols-3 md:text-left">
           {/* Logo + Building Info */}
           <div className="flex flex-col items-center md:items-start">
-            <Image
-              src="/logo-2.png"
-              alt="Gerard Towers"
-              width={150}
-              height={50}
-              className="mb-5 h-auto w-auto"
-            />
+          <Image
+            src="/logo-2.png"
+            alt="Gerard Towers"
+            width={130}
+            height={45}
+            className="mb-5 h-auto w-28 md:w-36"
+          />
 
             <p className="max-w-sm leading-7 text-gray-400">
               A full-service cooperative residence located in the heart of
