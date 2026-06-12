@@ -107,6 +107,27 @@ const amenities = [
       "/amenities/party/2.webp",
       "/amenities/party/3.webp",
       "/amenities/party/4.webp",
+      "/amenities/party/5.webp",
+      "/amenities/party/6.webp",
+    ],
+  },
+  {
+    title: "Sauna Room",
+    description:
+      "A relaxing wellness space designed to help residents unwind and recharge.",
+    images: [
+      "/amenities/sauna/1.webp",
+      "/amenities/sauna/2.webp",
+    ],
+  },
+  {
+    title: "Package Room",
+    description:
+      "A secure location for receiving and storing packages.",
+    images: [
+      "/amenities/package/1.webp",
+      "/amenities/package/2.webp",
+      "/amenities/package/3.webp",
     ],
   },
 ];

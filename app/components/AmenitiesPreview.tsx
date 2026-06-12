@@ -36,10 +36,7 @@ const amenities = [
     cover: "/amenities/playroom/1.webp",
     short: "A dedicated indoor space for children and families.",
     details: "The playroom provides a safe and convenient area for children.",
-    images: [
-      "/amenities/playroom/1.webp",
-      "/amenities/playroom/2.webp",
-    ],
+    images: ["/amenities/playroom/1.webp", "/amenities/playroom/2.webp"],
   },
   {
     title: "Laundry Room",
@@ -58,7 +55,8 @@ const amenities = [
     title: "Courtyard",
     cover: "/amenities/courtyard/3.webp",
     short: "Outdoor space and garden for residents to enjoy.",
-    details: "The courtyard offers a quiet outdoor area within the property. Also includes a garden for residents to grow plants and vegetables.",
+    details:
+      "The courtyard offers a quiet outdoor area within the property. Also includes a garden for residents to grow plants and vegetables.",
     images: [
       "/amenities/courtyard/1.webp",
       "/amenities/courtyard/2.webp",
@@ -91,7 +89,8 @@ const amenities = [
     title: "Bike Room",
     cover: "/amenities/bike/1.webp",
     short: "Secure bike storage available in the building.",
-    details: "The bike room gives residents a designated space for bicycle storage.",
+    details:
+      "The bike room gives residents a designated space for bicycle storage.",
     images: [
       "/amenities/bike/1.webp",
       "/amenities/bike/2.webp",
@@ -115,7 +114,8 @@ const amenities = [
   {
     title: "Library/Party Room",
     cover: "/amenities/party/1.webp",
-    short: "A dedicated space for reading, socializing, and hosting events. Vending and Coffee Area available.",
+    short:
+      "A dedicated space for reading, socializing, and hosting events. Vending and Coffee Area available.",
     details:
       "The library/party room provides a versatile area for residents to enjoy reading, socializing, or hosting events. Outside the room there's a Vending and Coffee Area as well.",
     images: [
@@ -123,6 +123,33 @@ const amenities = [
       "/amenities/party/2.webp",
       "/amenities/party/3.webp",
       "/amenities/party/4.webp",
+      "/amenities/party/5.webp",
+      "/amenities/party/6.webp",
+    ],
+  },
+  {
+    title: "Sauna Room",
+    cover: "/amenities/sauna/1.webp",
+    short:
+      "A relaxing wellness space designed to help residents unwind and recharge.",
+    details:
+      "The sauna room offers residents a quiet and comfortable environment to relax, reduce stress, and enjoy the benefits of heat therapy as part of a healthy lifestyle.",
+    images: [
+      "/amenities/sauna/1.webp",
+      "/amenities/sauna/2.webp",
+    ],
+  },
+  {
+    title: "Package Room",
+    cover: "/amenities/package/1.webp",
+    short:
+      "A secure location for receiving and storing packages.",
+    details:
+      "The package room provides a convenient and secure location for residents to receive and store their packages, ensuring they are safe and easily accessible.",
+    images: [
+      "/amenities/package/1.webp",
+      "/amenities/package/2.webp",
+      "/amenities/package/3.webp",
     ],
   },
 ];
@@ -146,15 +173,17 @@ export default function AmenitiesPreview() {
 
   function previousImage() {
     if (!selectedAmenity) return;
-    setActiveIndex(
-      (activeIndex - 1 + selectedAmenity.images.length) %
-        selectedAmenity.images.length
+
+    setActiveIndex((prev) =>
+      (prev - 1 + selectedAmenity.images.length) %
+      selectedAmenity.images.length
     );
   }
 
   function nextImage() {
     if (!selectedAmenity) return;
-    setActiveIndex((activeIndex + 1) % selectedAmenity.images.length);
+
+    setActiveIndex((prev) => (prev + 1) % selectedAmenity.images.length);
   }
 
   return (
@@ -172,7 +201,8 @@ export default function AmenitiesPreview() {
           <p className="text-lg leading-8 text-gray-600">
             Explore the spaces and services available throughout Gerard Towers,
             including recreation, convenience, storage, parking, and resident
-            support. Amenities like pool, garage, fitness center, bike room and private use of party room are fee-based.
+            support. Amenities like pool, garage, fitness center, bike room and
+            private use of party room are fee-based.
           </p>
         </div>
 
@@ -180,6 +210,7 @@ export default function AmenitiesPreview() {
           {amenities.map((amenity) => (
             <button
               key={amenity.title}
+              type="button"
               onClick={() => openAmenity(amenity)}
               className="group overflow-hidden rounded-2xl border border-gray-200 bg-white text-left shadow-sm transition-transform duration-200 hover:-translate-y-1"
             >
@@ -188,6 +219,7 @@ export default function AmenitiesPreview() {
                   src={amenity.cover}
                   alt={amenity.title}
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   className="object-cover"
                 />
               </div>
@@ -196,6 +228,7 @@ export default function AmenitiesPreview() {
                 <h3 className="mb-2 text-lg font-semibold text-black">
                   {amenity.title}
                 </h3>
+
                 <p className="text-sm leading-6 text-gray-600">
                   {amenity.short}
                 </p>
@@ -207,16 +240,17 @@ export default function AmenitiesPreview() {
 
       {selectedAmenity && activeImage && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4"
           onClick={closeAmenity}
         >
           <div
-            className="relative max-h-[92vh] w-full max-w-5xl overflow-y-auto rounded-3xl bg-white shadow-2xl"
+            className="relative max-h-[92vh] w-full max-w-5xl overflow-y-auto rounded-3xl bg-white shadow-xl"
             onClick={(e) => e.stopPropagation()}
           >
             <button
+              type="button"
               onClick={closeAmenity}
-              className="absolute right-4 top-4 z-20 rounded-full bg-white px-3 py-1 text-xl shadow hover:bg-gray-100"
+              className="absolute right-4 top-4 z-20 rounded-full bg-white px-3 py-1 text-xl text-black shadow hover:bg-gray-100"
             >
               ×
             </button>
@@ -226,6 +260,7 @@ export default function AmenitiesPreview() {
                 src={activeImage}
                 alt={selectedAmenity.title}
                 fill
+                sizes="(max-width: 768px) 100vw, 900px"
                 className="object-contain"
               />
 
@@ -249,9 +284,10 @@ export default function AmenitiesPreview() {
             <div className="p-6">
               <div className="mb-5 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
                 <div>
-                  <h3 className="mb-3 text-2xl font-bold text-black">
+                  <h3 className="mb-3 text-2xl font-bold text-black!">
                     {selectedAmenity.title}
                   </h3>
+
                   <p className="mt-2 leading-7 text-gray-600">
                     {selectedAmenity.details}
                   </p>
@@ -278,6 +314,7 @@ export default function AmenitiesPreview() {
                       src={image}
                       alt={`${selectedAmenity.title} ${index + 1}`}
                       fill
+                      sizes="100px"
                       className="object-cover"
                     />
                   </button>
