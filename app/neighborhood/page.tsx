@@ -5,30 +5,30 @@ import Image from "next/image";
 
 const neighborhoodImages = [
   { title: "Austin Street", image: "/neighborhood/Austin Street.webp" },
-  { title: "Citi Field", image: "/neighborhood/Citi Field.webp" },
+  { title: "Citi Field", image: "/neighborhood/citi field.webp" },
   {
     title: "Flushing Meadows Corona Park",
     image: "/neighborhood/Flushing Meadows Corona Park.webp",
   },
   {
     title: "Forest Hills Gardens",
-    image: "/neighborhood/Forest Hills Gardens.webp",
+    image: "/neighborhood/forest hills gardens.webp",
   },
   {
     title: "Forest Hills Stadium",
-    image: "/neighborhood/Forest Hills Stadium.webp",
+    image: "/neighborhood/forest hills stadium.webp",
   },
-  { title: "Forest Park", image: "/neighborhood/Forest Park.webp" },
+  { title: "Forest Park", image: "/neighborhood/forest park.webp" },
   {
     title: "New York Hall of Science",
-    image: "/neighborhood/New York Hall of Science.webp",
+    image: "/neighborhood/new york hall of science.webp",
   },
-  { title: "Queens Museum", image: "/neighborhood/Queens Museum.webp" },
-  { title: "Queens Zoo", image: "/neighborhood/Queens Zoo.webp" },
-  { title: "US Open Tennis", image: "/neighborhood/US Open Tennis.webp" },
+  { title: "Queens Museum", image: "/neighborhood/queens museum.webp" },
+  { title: "Queens Zoo", image: "/neighborhood/queens zoo.webp" },
+  { title: "US Open Tennis", image: "/neighborhood/us open tennis.webp" },
   {
     title: "West Side Tennis Club",
-    image: "/neighborhood/West Side Tennis Club.webp",
+    image: "/neighborhood/westside tennis club.webp",
   },
 ];
 
