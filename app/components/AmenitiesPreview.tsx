@@ -80,7 +80,6 @@ const amenities = [
       "/amenities/lobby/6.webp",
       "/amenities/lobby/7.webp",
       "/amenities/lobby/8.webp",
-      "/amenities/lobby/9.webp",
       "/amenities/lobby/10.webp",
       "/amenities/lobby/11.webp",
     ],
