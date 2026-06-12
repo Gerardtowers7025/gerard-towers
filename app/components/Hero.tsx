@@ -47,6 +47,8 @@ export default function Hero() {
   const [current, setCurrent] = useState(0);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  const slide = slides[current];
+
   function clearSlideTimer() {
     if (timerRef.current) {
       clearTimeout(timerRef.current);
@@ -82,26 +84,17 @@ export default function Hero() {
     return () => clearSlideTimer();
   }, [current]);
 
-  const slide = slides[current];
-
   return (
     <section className="relative min-h-[75vh] overflow-hidden text-white">
-      {slides.map((item, index) => (
-        <div
-          key={item.title}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === current ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Image
-            src={item.image}
-            alt={item.title}
-            fill
-            priority={index === 0}
-            className="object-cover object-top"
-          />
-        </div>
-      ))}
+      <Image
+        key={slide.image}
+        src={slide.image}
+        alt={slide.title}
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-top"
+      />
 
       <div className="absolute inset-0 bg-black/60" />
 

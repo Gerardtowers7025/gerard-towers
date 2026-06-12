@@ -211,7 +211,7 @@ export default function AmenitiesPreview() {
               key={amenity.title}
               type="button"
               onClick={() => openAmenity(amenity)}
-              className="group overflow-hidden rounded-2xl border border-gray-200 bg-white text-left shadow-sm transition-transform duration-200 hover:-translate-y-1"
+              className="overflow-hidden rounded-2xl border border-gray-200 bg-white text-left shadow-sm"
             >
               <div className="relative h-44 bg-gray-200">
                 <Image
