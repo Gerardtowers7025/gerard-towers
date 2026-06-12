@@ -10,7 +10,7 @@ const slides = [
     title: "Gerard Towers",
     description:
       "A full-service cooperative residence located at 70-25 Yellowstone Boulevard in the heart of Forest Hills.",
-    image: "/hero/gerard-towers.webp",
+    image: "/hero/gt.webp",
   },
   {
     eyebrow: "Apartment Lines",
