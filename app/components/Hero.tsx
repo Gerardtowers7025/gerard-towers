@@ -17,7 +17,7 @@ const slides = [
     title: "Explore Our Residences",
     description:
       "View apartment lines, layout details, approximate square footage, and downloadable floor plans.",
-    image: "/hero/apartments.webp",
+    image: "/hero/apts.webp",
     buttonText: "View Apartments",
     href: "/apartments",
   },
