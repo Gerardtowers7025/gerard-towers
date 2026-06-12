@@ -98,7 +98,7 @@ export default function Hero() {
             alt={item.title}
             fill
             priority={index === 0}
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
       ))}
