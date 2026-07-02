@@ -102,7 +102,7 @@ const amenities = [
   {
     title: "Library/Party Room",
     description:
-      "A dedicated space for reading, socializing, and hosting events. Vending and Coffee Area available.",
+      "A dedicated space for reading, socializing, and hosting events. Vending available.",
     images: [
       "/amenities/party/1.webp",
       "/amenities/party/2.webp",

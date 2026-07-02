@@ -116,7 +116,7 @@ const amenities = [
     title: "Library/Party Room",
     cover: "/amenities/party/1.webp",
     short:
-      "A dedicated space for reading, socializing, and hosting events. Vending and Coffee Area available.",
+      "A dedicated space for reading, socializing, and hosting events. Vending available.",
     details:
       "The library/party room provides a versatile area for residents to enjoy reading, socializing, or hosting events. Outside the room there's a Vending and Coffee Area as well.",
     images: [
