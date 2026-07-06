@@ -86,15 +86,16 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-[75vh] overflow-hidden text-white">
-      <Image
-        key={slide.image}
-        src={slide.image}
-        alt={slide.title}
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover object-top"
-      />
+    <Image
+      key={slide.image}
+      src={slide.image}
+      alt={slide.title}
+      fill
+      priority
+      quality={70}
+      sizes="100vw"
+      className="object-cover object-top"
+    />
 
       <div className="absolute inset-0 bg-black/60" />
 
