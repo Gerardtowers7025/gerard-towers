@@ -219,13 +219,16 @@ export default function AmenitiesPreview() {
               className="group overflow-hidden rounded-2xl border border-gray-200 bg-white text-left shadow-sm"
             >
               <div className="relative h-44 bg-gray-200">
-                <Image
-                  src={amenity.cover}
-                  alt={amenity.title}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  className="object-cover"
-                />
+              <Image
+                src={amenity.cover}
+                alt={amenity.title}
+                fill
+                loading="lazy"
+                quality={65}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 280px"
+                className="object-cover"
+                placeholder="empty"
+              />
               </div>
 
               <div className="p-5">
