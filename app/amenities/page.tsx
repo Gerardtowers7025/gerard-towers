@@ -16,6 +16,9 @@ const amenities = [
       "/amenities/pool/5.webp",
       "/amenities/pool/6.webp",
       "/amenities/pool/7.webp",
+      "/amenities/pool/8.webp",
+      "/amenities/pool/9.webp",
+      "/amenities/pool/10.webp",
     ],
   },
   {
