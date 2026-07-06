@@ -111,7 +111,7 @@ export default function NeighborhoodPage() {
     <main className="bg-white">
       <section className="relative h-125 overflow-hidden">
         <Image
-          src="/hero/foresthillsgarden.webp"
+          src="/hero/foresthillsgarden1.webp"
           alt="Forest Hills Neighborhood"
           fill
           priority
