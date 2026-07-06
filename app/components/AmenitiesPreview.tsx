@@ -267,6 +267,7 @@ export default function AmenitiesPreview() {
                 src={activeImage}
                 alt={selectedAmenity.title}
                 fill
+                quality={75}
                 sizes="(max-width: 768px) 100vw, 900px"
                 className="object-contain"
               />
@@ -317,13 +318,15 @@ export default function AmenitiesPreview() {
                         : "border-transparent"
                     }`}
                   >
-                    <Image
-                      src={image}
-                      alt={`${selectedAmenity.title} ${index + 1}`}
-                      fill
-                      sizes="100px"
-                      className="object-cover"
-                    />
+                  <Image
+                    src={image}
+                    alt={`${selectedAmenity.title} ${index + 1}`}
+                    fill
+                    loading="lazy"
+                    quality={50}
+                    sizes="100px"
+                    className="object-cover"
+                  />
                   </button>
                 ))}
               </div>
