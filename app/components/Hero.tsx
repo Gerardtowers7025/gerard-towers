@@ -9,7 +9,7 @@ const slides = [
     eyebrow: "Forest Hills, Queens",
     title: "Gerard Towers",
     description:
-      "A full-service cooperative residence located at 70-25 Yellowstone Boulevard in the heart of Forest Hills.",
+      "Welcome To Gerard Towers - A luxury high-rise Cooperative located in the heart of Forest Hills, NY",
     image: "/hero/gt.webp",
   },
   {
@@ -85,7 +85,7 @@ export default function Hero() {
   }, [current]);
 
   return (
-    <section className="relative min-h-[75vh] overflow-hidden text-white">
+    <section className="relative min-h-screen overflow-hidden text-white">
     <Image
       key={slide.image}
       src={slide.image}
@@ -94,12 +94,12 @@ export default function Hero() {
       priority
       quality={70}
       sizes="100vw"
-      className="object-cover object-top"
+      className="object-cover"
     />
 
       <div className="absolute inset-0 bg-black/60" />
 
-      <div className="relative mx-auto flex min-h-[75vh] max-w-6xl items-center px-6 py-20">
+      <div className="relative mx-auto flex min-h-screen max-w-6xl items-center px-6 py-20">
         <div
           key={slide.title}
           className="max-w-2xl animate-[fadeSlide_0.8s_ease-out]"

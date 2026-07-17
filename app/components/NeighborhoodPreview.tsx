@@ -15,7 +15,7 @@ export default function NeighborhoodPreview() {
 
         <p className="mx-auto mb-10 max-w-3xl text-lg leading-8 text-gray-600">
           Gerard Towers is located near Austin Street, Yellowstone Boulevard,
-          and Gerard Place, placing residents close to shopping, dining, parks,
+          and Queens Blvd, placing residents close to shopping, dining, parks,
           services, and everyday neighborhood convenience.
         </p>
 <div className="mb-12 overflow-hidden rounded-3xl shadow-lg">
@@ -76,7 +76,7 @@ export default function NeighborhoodPreview() {
   <p className="text-sm leading-6 text-gray-600">
     Walking distance to the E, F, M, and R subway lines, Forest Hills–71st
     Avenue station, Long Island Rail Road (LIRR), express bus service, and
-    major roadways connecting Queens, Manhattan, and Long Island.
+    major roadways connecting Queens, Manhattan, Brooklyn and Long Island.
   </p>
 </div>
         </div>

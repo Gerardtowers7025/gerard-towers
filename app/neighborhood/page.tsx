@@ -33,42 +33,32 @@ const neighborhoodImages = [
 ];
 
 const highlights = [
-  {
-    title: "Austin Street",
-    description:
-      "A nearby destination for shopping, cafés, restaurants, banks, pharmacies, and everyday errands.",
-  },
-  {
-    title: "Forest Hills Gardens",
-    description:
-      "A historic residential area known for its quiet streets, distinctive architecture, and neighborhood character.",
-  },
-  {
-    title: "Parks & Green Space",
-    description:
-      "Nearby parks and outdoor spaces provide places for walking, relaxing, and recreation.",
-  },
-  {
-    title: "Everyday Convenience",
-    description:
-      "Groceries, medical offices, pharmacies, restaurants, and local services are all within the surrounding area.",
-  },
-  {
-    title: "Queens Boulevard Access",
-    description:
-      "The building is positioned near major local roads, making travel around Queens and nearby neighborhoods convenient.",
-  },
-  {
-    title: "Dining & Cafés",
-    description:
-      "Forest Hills offers a mix of casual dining, coffee shops, bakeries, and neighborhood restaurants.",
-  },
-  {
-    title: "Transportation Access",
-    image: "/neighborhood/EFMR.webp",
-    description:
-      "Walking distance to the E, F, M, and R subway lines, Forest Hills–71st Avenue station, Long Island Rail Road service, and express bus routes connecting residents to Manhattan, Brooklyn, Long Island, and destinations throughout Queens.",
-  },
+{
+  title: "Dining & Cafés",
+  description:
+    "Forest Hills is renowned for its vibrant dining scene, offering an exceptional variety of restaurants, cafés, bakeries, and neighborhood favorites just steps from Gerard Towers. Residents can explore the famous Austin Street 'Restaurant Row,' featuring Chinese, Thai, Japanese, Korean, Mediterranean, Italian, Mexican, Greek, vegetarian, and many other international cuisines. The neighborhood also offers steakhouses, diners, coffee shops, bagel stores, bakeries, bars, and fast-casual dining, providing countless options for every taste.",
+},
+{
+  title: "Entertainment & Everyday Convenience",
+  description:
+    "Everything you need for daily living is just moments away. Residents enjoy convenient access to shopping, grocery stores, pharmacies, banks, medical offices, urgent care centers, fitness clubs, dance studios, the Queens Public Library, movie theater, seasonal farmers markets, organic markets, and a wide variety of local shops and professional services, making Forest Hills one of Queens' most walkable and convenient neighborhoods.",
+},
+{
+  title: "Transportation Access",
+  image: "/neighborhood/EFMR.webp",
+  description:
+    "Gerard Towers offers excellent transportation access, with nearby highways and parkways providing convenient travel throughout New York City and beyond. JFK and LaGuardia airports are both just minutes away by car. Residents are within walking distance of the Forest Hills–71st Avenue subway station, served by the E, F, M, and R lines, as well as the Forest Hills LIRR station. Local and express bus routes also provide convenient connections throughout Queens, Manhattan, Brooklyn, and Long Island.",
+},
+{
+  title: "Schools",
+  description:
+    "Gerard Towers is zoned for P.S. 144 Col. Jeromus Remsen School, Russell Sage Junior High School, and Forest Hills High School. The neighborhood also offers a variety of private schools, preschools, daycare centers, and early childhood education programs, making it an excellent location for families with children of all ages.",
+},
+{
+  title: "Houses of Worship",
+  description:
+    "Forest Hills is home to a diverse collection of houses of worship representing many faiths and traditions. Nearby residents have convenient access to churches, synagogues, and other places of worship, including the historic Church-in-the-Gardens, Our Lady Queen of Martyrs Roman Catholic Church, Forest Hills Jewish Center, and Saint Luke's Episcopal Church, along with many other religious and community institutions.",
+},
 ];
 
 export default function NeighborhoodPage() {
@@ -153,12 +143,15 @@ export default function NeighborhoodPage() {
             </p>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {highlights.map((item) => (
               <div
                 key={item.title}
                 className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
               >
+                <h3 className="mb-3 text-xl font-semibold text-gray-900">
+                  {item.title}
+                </h3>
                 {"image" in item && item.image && (
                   <div className="relative mb-4 h-24 overflow-hidden rounded-xl bg-white">
                     <Image
@@ -170,52 +163,11 @@ export default function NeighborhoodPage() {
                   </div>
                 )}
 
-                <h3 className="mb-3 text-xl font-semibold text-gray-900">
-                  {item.title}
-                </h3>
-
                 <p className="leading-7 text-gray-600">
                   {item.description}
                 </p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="px-6 py-16">
-        <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2 md:items-center">
-          <div>
-            <h2 className="mb-4 text-3xl font-semibold text-gray-900">
-              Close to Daily Essentials
-            </h2>
-
-            <p className="mb-6 text-lg leading-8 text-gray-600">
-              Residents are close to neighborhood shopping, grocery options,
-              restaurants, pharmacies, banks, medical offices, and other
-              services that support everyday living.
-            </p>
-
-            <p className="text-lg leading-8 text-gray-600">
-              The surrounding area offers a residential feel while keeping many
-              conveniences nearby.
-            </p>
-          </div>
-
-          <div className="rounded-3xl bg-gray-50 p-8">
-            <h3 className="mb-4 text-xl font-semibold text-gray-900">
-              Nearby Categories
-            </h3>
-
-            <ul className="space-y-3 text-gray-600">
-              <li>• Shopping and local services</li>
-              <li>• Restaurants, cafés, and bakeries</li>
-              <li>• Parks and walking areas</li>
-              <li>• Grocery stores and pharmacies</li>
-              <li>• Banks and professional offices</li>
-              <li>• Medical and dental offices</li>
-              <li>• Subway, LIRR, and express bus access</li>
-            </ul>
           </div>
         </div>
       </section>

@@ -306,9 +306,9 @@ export default function ApartmentLinesTable() {
         </div>
 
         {/* Desktop Table */}
-        <div className="hidden rounded-2xl border border-gray-200 md:block">
-          <table className="w-full text-left text-sm">
-            <thead className="bg-gray-100 text-gray-700">
+        <div className="hidden rounded-2xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900 md:block">
+          <table className="w-full text-left text-sm text-gray-700 dark:text-gray-200">
+            <thead className="bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white">
               <tr>
                 <th className="p-4">Line</th>
                 <th className="p-4">Type</th>
@@ -322,7 +322,10 @@ export default function ApartmentLinesTable() {
 
             <tbody>
               {apartmentLines.map((apt) => (
-                <tr key={apt.line} className="border-t hover:bg-gray-50">
+                <tr
+                  key={apt.line}
+                  className="border-t border-gray-200 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800/50"
+                >
                   <td className="p-4 font-semibold">{apt.line}</td>
                   <td className="p-4">{apt.type}</td>
                   <td className="p-4">{apt.details}</td>

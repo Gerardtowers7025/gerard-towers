@@ -7,7 +7,7 @@ const amenities = [
   {
     title: "Outdoor Pool",
     description:
-      "A seasonal outdoor pool area available for residents to enjoy during the warmer months.",
+      "Residents can enjoy our seasonal Olympic-size outdoor swimming pool, featuring both sunny and shaded lounge areas for relaxing throughout the summer. The pool area also includes a separate, secure children's pool, making it ideal for families. Certified lifeguards are on duty during operating hours to ensure a safe and enjoyable experience for everyone. Residents also have access to a dedicated barbecue area, perfect for outdoor gatherings with family and friends during warm afternoons and evenings.",
     images: [
       "/amenities/pool/1.webp",
       "/amenities/pool/2.webp",
@@ -15,16 +15,13 @@ const amenities = [
       "/amenities/pool/4-1.webp",
       "/amenities/pool/5.webp",
       "/amenities/pool/6.webp",
-      "/amenities/pool/7.webp",
-      "/amenities/pool/8.webp",
       "/amenities/pool/9.webp",
-      "/amenities/pool/10.webp",
     ],
   },
   {
     title: "Fitness Center",
     description:
-      "An on-site fitness room with equipment for convenient everyday workouts.",
+      "Stay active in our spacious on-site fitness center, featuring a wide variety of modern, regularly updated cardio and strength-training equipment to accommodate all fitness levels. The gym is open daily from 5:00 AM to 10:00 PM for convenient access, with membership available for an annual fee.",
     images: [
       "/amenities/gym/1.webp",
       "/amenities/gym/2.webp",
@@ -35,7 +32,7 @@ const amenities = [
   {
     title: "Laundry Room",
     description:
-      "A resident laundry room located within the building for everyday convenience.",
+      "Our spacious resident laundry room features a large number of modern, high-capacity washers and dryers, providing ample availability and convenience for everyday laundry needs. Conveniently located within the building, the laundry facility is designed to make routine chores quick and hassle-free.",
     images: [
       "/amenities/laundry/1.webp",
       "/amenities/laundry/2-1.webp",
@@ -46,7 +43,7 @@ const amenities = [
   {
     title: "Courtyard",
     description:
-      "Outdoor shared space for residents to enjoy fresh air, quiet moments, and community space. A garden area for planting is also available.",
+      "Enjoy our beautifully landscaped courtyard, a peaceful outdoor retreat where residents can relax, socialize, and enjoy fresh air in a tranquil setting. The courtyard also features a dedicated community garden with planting areas, allowing residents to grow flowers, herbs, and seasonal plants while fostering a welcoming sense of community. The space is also available for resident gatherings, with reservations accepted for private parties and special events.",
     images: [
       "/amenities/courtyard/1.webp",
       "/amenities/courtyard/2.webp",
@@ -57,7 +54,7 @@ const amenities = [
   },
   {
     title: "Playroom",
-    description: "A dedicated indoor play area for families and children.",
+    description: "Our bright and welcoming indoor playroom provides a safe, fun, and engaging space for children to play year-round.",
     images: [
       "/amenities/playroom/1.webp",
       "/amenities/playroom/2.webp",
@@ -66,7 +63,7 @@ const amenities = [
   {
     title: "Bike Room",
     description:
-      "Bike storage available for residents who need a convenient place to keep bicycles.",
+      "Our secure on-site bike room provides residents with a convenient and organized place to store their bicycles year-round. The facility offers 24-hour access for added convenience, allowing residents to come and go on their own schedule. Bike storage is available for an annual fee, providing a safe and easily accessible solution for everyday cyclists.",
     images: [
       "/amenities/bike/1.webp",
       "/amenities/bike/2.webp",
@@ -77,7 +74,7 @@ const amenities = [
   {
     title: "Private Garage",
     description:
-      "Private garage parking available separately for residents, subject to availability.",
+      "Enjoy the convenience of on-site indoor parking with immediate availability, 24-hour attendant service, and direct access to the building.",
     images: [
       "/amenities/garage/1.webp",
       "/amenities/garage/2.webp",
@@ -88,24 +85,21 @@ const amenities = [
   {
     title: "Lobby",
     description:
-      "A staffed lobby providing daily support, package assistance, and building access oversight.",
+      "Welcome home through our newly renovated lobby and waiting area, staffed by a professional 24-hour doorman team. Residents enjoy personalized daily assistance, including package handling, delivery support, luggage and shopping carts, visitor access management, and building security, ensuring convenience and peace of mind around the clock.",
     images: [
-      "/amenities/lobby/1.webp",
       "/amenities/lobby/2.webp",
       "/amenities/lobby/3.webp",
       "/amenities/lobby/4.webp",
       "/amenities/lobby/5.webp",
       "/amenities/lobby/6.webp",
       "/amenities/lobby/7.webp",
-      "/amenities/lobby/8.webp",
       "/amenities/lobby/10.webp",
-      "/amenities/lobby/11.webp",
     ],
   },
   {
     title: "Library/Party Room",
     description:
-      "A dedicated space for reading, socializing, and hosting events. Vending available.",
+      "Our Library and Party Room offers a comfortable and versatile space for residents to read, relax, socialize, or host private gatherings. Whether you're enjoying a quiet afternoon with a book or celebrating a special occasion with family and friends, this welcoming space is available by reservation for private events. Convenient vending machines are also available for snacks and refreshments.",
     images: [
       "/amenities/party/1.webp",
       "/amenities/party/2.webp",
@@ -116,9 +110,9 @@ const amenities = [
     ],
   },
   {
-    title: "Sauna Room",
+    title: "Sauna Rooms",
     description:
-      "A relaxing wellness space designed to help residents unwind and recharge.",
+      "Unwind in our relaxing sauna, offering residents a peaceful space to recharge and enjoy the wellness benefits of heat therapy. Conveniently located near the fitness center and pool, the sauna is complemented by clean, well-maintained locker rooms and private shower facilities for a complete wellness experience.",
     images: [
       "/amenities/sauna/1.webp",
       "/amenities/sauna/2.webp",
@@ -127,7 +121,7 @@ const amenities = [
   {
     title: "Package Room",
     description:
-      "A secure location for receiving and storing packages.",
+      "Our secure package room provides a safe and convenient location for receiving and storing deliveries. Residents enjoy peace of mind knowing that packages are securely held until pickup, helping protect deliveries from loss or theft. The package room is professionally managed to ensure efficient handling of deliveries and easy access for residents during building hours.",
     images: [
       "/amenities/package/1.webp",
       "/amenities/package/2.webp",
@@ -206,7 +200,7 @@ export default function AmenitiesPage() {
           }`}
         >
           <div className="mx-auto max-w-6xl">
-            <div className="mb-8 max-w-3xl">
+            <div className="mb-8 w-full">
               <h2 className="mb-4 text-3xl font-semibold text-gray-900">
                 {amenity.title}
               </h2>
