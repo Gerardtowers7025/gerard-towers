@@ -98,7 +98,7 @@ export default function NeighborhoodPage() {
   }
 
   return (
-    <main className="bg-white">
+    <main className="bg-white pt-34">
       <section className="relative h-125 overflow-hidden">
         <Image
           src="/hero/foresthillsgarden1.webp"

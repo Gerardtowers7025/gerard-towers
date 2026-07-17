@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ManagementPage() {
   return (
-    <main className="bg-white">
+    <main className="bg-white pt-34">
       <section className="relative h-125 overflow-hidden">
         <Image
           src="/hero/management.webp"
